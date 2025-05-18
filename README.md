@@ -28,3 +28,7 @@ This project demonstrates how to:
 3. Use Node.js to run the application:
    ```bash
    node app.js
+4. If you want to run in debug mode
+   ```bash
+   node inspect app.js
+5. If you run in debug mode got to chrome://inspect and then click on inspect for your working directory. You may need to sync your project on the dev tool
