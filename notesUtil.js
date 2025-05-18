@@ -8,6 +8,8 @@ const addNote = (title, body) => {
         return note.title.toLowerCase() == title.toLowerCase()
     })
 
+    debugger
+
     if(isTitlePresent){
         console.log('Title ' + title + ' is already present')
     }else{
